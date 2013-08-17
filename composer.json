@@ -1,6 +1,6 @@
 {
-    "name": "robertlabrie/simplecurl",
-    "description": "A *simple* cURL wrapper",
+    "name": "robertlabrie/simpleweb",
+    "description": "A *simple* web downloader",
     "license": "LGPL V2.1",
     "authors": [
         {
