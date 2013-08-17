@@ -1,0 +1,15 @@
+{
+    "name": "robertlabrie/simplecurl",
+    "description": "A *simple* cURL wrapper",
+    "license": "LGPL V2.1",
+    "authors": [
+        {
+            "name": "robertlabrie",
+            "email": "robert.labrie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1",
+        "lib-curl": "*"
+    }
+}
