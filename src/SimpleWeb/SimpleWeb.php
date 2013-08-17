@@ -5,6 +5,17 @@ abstract class SimpleWeb
 {
 	abstract protected function proxySet($host, $port, $user, $pass);
 
+	public static function bozo($mode)
+	{
+		echo "dojo";
+	}
+	public static function build($mode)
+	{
+		if ($mode == "curl") { return new SimpleCurl; }
+	}
+	/**
+	 * return an instance of self
+	 */
 	/**
 	 * Load (auto-set) proxy settings from environment variables.
 	 * Lifed shamelessly from Browscap.php

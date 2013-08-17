@@ -11,5 +11,10 @@
     "require": {
         "php": ">=5.1",
         "lib-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SimpleWeb": "src/"
+        }
     }
 }
